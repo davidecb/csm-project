@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/archivospaginasmarzo
+/stage1
 /.pnp
 .pnp.js
 
