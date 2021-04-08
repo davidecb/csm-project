@@ -1,0 +1,114 @@
+
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../../assets/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.loginFormContainer{
+    margin: 20px;
+    padding: 20px;
+    min-width: 50%;
+    background: rgba(3,3,3,0.7);
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px goldenrod;   
+}
+
+.loginForm{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+h1{
+    font-family:  sans-serif;
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    color: #ddd;
+    text-shadow: 3px 3px 10px #000;
+}
+
+.loginInputs{
+    font-family: sans-serif;
+    text-decoration: none;
+    position: relative;
+    width: 80%;
+    display: block;
+    margin: 9px auto;
+    font-size: 17px;
+    color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background: rgba(3,3,3,.6);
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+  
+.loginInputs:focus{
+    outline: none;
+    box-shadow: 3px 3px 10px goldenrod;
+    background: rgba(3,3,3,.7);
+}
+
+a{
+    text-decoration: none;
+}
+
+.loginButton{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 4px 8px;
+    background: rgba(218,165,32,0.5);
+    width: 150px;   
+    position: relative;    
+    display: block;
+    margin: 9px auto;    
+    color: #fff;    
+    border-radius: 6px;
+    border: none;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+  
+.loginButton:hover{
+    opacity: 0.7;
+}
+
+.rememberContainer{
+    display: flex;
+    justify-content: start;
+    margin: 5px 20px;
+    padding: 0;
+}
+
+.rememberText{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgba(255,255,255,.5);
+    top: 7px;
+    left: 20px;
+}
+
+.rememberCheckbox{
+ margin-left: 50px;
+ margin-right: 2px;
+}
+
+

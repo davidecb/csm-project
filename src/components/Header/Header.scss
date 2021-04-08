@@ -1,0 +1,16 @@
+.header{
+    margin:0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    min-height: 26%;
+    background-color: black;
+  } 
+    
+  .header__nav{
+    min-width: 40%;
+    display: flex;
+    justify-content: space-around;    
+  }
+  

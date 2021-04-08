@@ -1,0 +1,100 @@
+@import '../../common/scss/colors';
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+a {
+    color: $basic-black;    
+    text-decoration: none;
+
+    &:hover {
+        color: $basic-black;
+    }
+}
+
+.nav {
+    &__option {
+        margin: 8px;
+        margin-bottom: 3px;        
+        background: $golden-poppy;
+        border: gold 2px inset;
+        border-radius: 13px;
+        cursor: pointer;
+
+        &:hover{
+            margin: 7px;
+            margin-bottom: 2px;
+            padding: 1px;
+        }
+    }
+
+    .option {
+
+        &__textwrapper {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .textwrapper {
+
+            &__text {
+                font-family: 'Londrina Solid', cursive;
+                font-size: medium;
+                font-weight: 320;
+                letter-spacing: 1px;
+                padding: 7px ;
+
+                &:hover {
+                    font-weight: 450;
+                }
+            }
+        }
+    }
+}
+
+
+/* 
+
+button{
+    
+  
+  }
+
+.nav {
+    color: #00000099;
+
+    &__option {
+        height: 100%;
+        padding-bottom: 2px;
+        position: relative;
+        width: 80px;
+
+        &:hover {
+            color: #000000;
+        }
+    }
+    
+    .option {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+
+        &__textwrapper {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .textwrapper {
+
+            &__text {
+                font-size: 12px;
+                margin-top: 2px;
+            }
+        }        
+    }
+
+   
+
+}
+ */
